@@ -10,35 +10,35 @@ document.addEventListener("DOMContentLoaded", function() {
     "recruiter": "John Doe",
     "description": "Si tu aimes les spaghettis de câble, ce job est fait pour toi",
     "keywords": ["Informatique", "Network"],
-    "picture": "",
+    "picture": "Img/img-resized/technicien-systeme-reseau-2 (1).jpeg",
     "telework": true
   },
   {
     "id": "1",
-    "name": "développeur web",
+    "name": "Développeur web",
     "recruiter": "Jane Smith",
     "description": "c'est toi qu'on appelle quand il faut réparer l'imprimante?",
     "keywords": ["Informatique", "Web Development"],
-    "picture": "",
+    "picture": "Img/img-resized/developpeur web.jpg",
     "telework": false
   },
   {
     "id": "2",
-    "name": "architecte",
+    "name": "Architecte",
     "recruiter": "Archientreprise",
     "description": "Créateur de rêves immobiliers.",
     "keywords": ["BTP", "Architecture"],
-    "picture": "Img/retouchées/architectetest.jpg",
+    "picture": "Img/img-resized/architecte.jpg",
     "telework": false,
     "salaire": "50000€ - 70000€"
   },
   {
     "id": "3",
-    "name": "conducteur de travaux",
+    "name": "Conducteur de travaux",
     "recruiter": "Construction Company",
     "description": "Chef d'orchestre des chantiers.",
     "keywords": ["BTP", "Construction"],
-    "picture": "",
+    "picture": "Img/img-resized/conducteur-de-travz.jpg",
     "telework": false,
     "salaire": "40000€ - 60000€"
   },
@@ -48,137 +48,137 @@ document.addEventListener("DOMContentLoaded", function() {
     "recruiter": "Carroufour",
     "description": "Maître de l'art de convaincre.",
     "keywords": ["Ventes", "Marketing"],
-    "picture": "",
+    "picture": "Img/img-resized/Commercial.jpg",
     "telework": true,
     "salaire": "30000€ - 50000€"
   },
   {
     "id": "5",
-    "name": "chef de produit",
+    "name": "Chef de produit",
     "recruiter": "Louclerc",
     "description": "....",
     "keywords": ["Ventes", "Product Management"],
-    "picture": "",
+    "picture": "Img/img-resized/chef de produit.jpg",
     "telework": true,
     "salaire": "40000€ - 60000€"
   },
   {
     "id": "6",
-    "name": "infirmier",
+    "name": "Infirmier",
     "recruiter": "Polyclinique Curlancy",
     "description": "....",
     "keywords": ["Santé", "Médical"],
-    "picture": "",
+    "picture": "Img/img-resized/infirmier.jpeg",
     "telework": false,
     "salaire": "25000€ - 35000€"
   },
   {
     "id": "7",
-    "name": "médecin généraliste",
+    "name": "Médecin généraliste",
     "recruiter": "Polyclinique de Bouzannes",
     "description": "Déteste les pommes.",
     "keywords": ["Santé", "Medecine"],
-    "picture": "",
+    "picture": "Img/img-resized/medecin gen.jpg",
     "telework": false,
     "salaire": "80000€ - 120000€"
   },
   {
     "id": "8",
-    "name": "enseignant",
+    "name": "Enseignant",
     "recruiter": "Lycée Marco Chagoul",
     "description": "Guide des esprits en devenir.",
     "keywords": ["Education"],
-    "picture": "",
+    "picture": "Img/img-resized/enseignant.jpg",
     "telework": true,
     "salaire": "30000€ - 40000€"
   },
   {
     "id": "9",
-    "name": "formateur professionnel",
+    "name": "Formateur professionnel",
     "recruiter": "Basic Flute",
     "description": "C'est comme un formateur normal mais pro",
     "keywords": ["Education", "Entrainement"],
-    "picture": "",
+    "picture": "Img/img-resized/formateur professionel.jpg",
     "telework": true,
     "salaire": "35000€ - 50000€"
   },
   {
     "id": "10",
-    "name": "concepteur graphique",
+    "name": "Concepteur graphique",
     "recruiter": "Design Agency",
     "description": "Artiste numérique en action.",
     "keywords": ["Design", "Graphic Design"],
-    "picture": "",
+    "picture": "Img/img-resized/concepteur graphique.jpg",
     "telework": true,
     "salaire": "30000€ - 45000€"
   },
   {
     "id": "11",
-    "name": "ingénieur en génie civil",
+    "name": "Ingénieur en génie civil",
     "recruiter": "Engineering Company",
     "description": "Constructeur de l'avenir.",
     "keywords": ["Ingénierie", "Ingénieur civil"],
-    "picture": "",
+    "picture": "Img/img-resized/ingenieur-genie-civil.jpg",
     "telework": false,
     "salaire": "50000€ - 80000€"
   },
   {
     "id": "12",
-    "name": "technicien de laboratoire",
+    "name": "Technicien de laboratoire",
     "recruiter": "Laboratoire Gournier",
     "description": "Détective des molécules.",
     "keywords": ["Science", "Laboratory Technician"],
-    "picture": "",
+    "picture": "Img/img-resized/technicien labo.jpg",
     "telework": false,
     "salaire": "25000€ - 40000€"
   },
   {
     "id": "13",
-    "name": "analyste financier",
+    "name": "Analyste financier",
     "recruiter": "BNP pariboule",
-    "description": "Décrypteur des chiffres mystérieux.",
+    "description": "the numbers mason! what do they mean?!",
     "keywords": ["Finance", "Financial Analysis"],
-    "picture": "",
+    "picture": "Img/img-resized/analyste financier.jpg",
     "telework": true,
     "salaire": "40000€ - 60000€"
   },
   {
     "id": "14",
-    "name": "juriste",
+    "name": "Juriste",
     "recruiter": "Phoenix Wright Industry",
     "description": "Avocat de la justice, en costume et cravate.",
     "keywords": ["Droit", "Pénal"],
-    "picture": "",
+    "picture": "Img/img-resized/Juriste.jpg",
     "telework": true,
     "salaire": "45000€ - 70000€"
   },
   {
     "id": "15",
-    "name": "chef de projet",
+    "name": "Chef de projet",
     "recruiter": "Management Company",
     "description": "Sois le capitaine du succès de ton équipe.",
     "keywords": ["Management", "Project Management"],
-    "picture": "",
+    "picture": "Img/img-resized/chef de projet.jpg",
     "telework": true,
     "salaire": "50000€ - 80000€"
   },
   {
     "id": "16",
-    "name": "chef cuisinier",
+    "name": "Chef cuisinier",
     "recruiter": "Les Crayoures",
     "description": "Magicien culinaire aux fourneaux",
     "keywords": "Restauration",
-    "picture": "",
+    "picture": "Img/img-resized/chef-cuisinier.jpeg",
     "telework": false,
     "salaire": "30000€ - 50000€"
   },
   {
     "id": "17",
-    "name": "serveur",
+    "name": "Serveur",
     "recruiter": "Les Crayoures",
     "description": "Deviens funambule de l'hospitalité.",
     "keywords": ["Restauration", "Service"],
-    "picture": "",
+    "picture": "Img/img-resized/serveur.jpg",
     "telework": false,
     "salaire": "20000€ - 30000€"
   }
@@ -214,10 +214,10 @@ function displayMatchingCards() {
   let selectedJob = jobSelect.value;
   let teleworkOnly = teleworkCheckbox.checked;
   
-  let matchingCards = jobOffers.filter(function (offer) {
-    let matchIndustry = (selectedIndustry === "all" || offer.keywords.includes(selectedIndustry));
-    let matchJob = (selectedJob === "all" || offer.id === selectedJob);
-    let matchTelework = (!teleworkOnly || offer.telework);
+  const matchingCards = jobOffers.filter(function (offer) {
+    const matchIndustry = (selectedIndustry === "all" || offer.keywords.includes(selectedIndustry));
+    const matchJob = (selectedJob === "all" || offer.id === selectedJob);
+    const matchTelework = (!teleworkOnly || offer.telework);
     
     return matchIndustry && matchJob && matchTelework;
   });
@@ -228,7 +228,7 @@ function displayMatchingCards() {
   matchingCards.forEach(function (card) {
     let cardElement = document.createElement("div");
     cardElement.innerHTML = "<h2>" + card.name + "</h2>" +
-    "<p>Recruiter: " + card.recruiter + "</p>" +
+    "<p>Employeur: " + card.recruiter + "</p>" +
     "<p>Description: " + card.description + "</p>" +
     "<img src='" + card.picture + "' alt='Job Picture'>";
     matchingCardsContainer.appendChild(cardElement);

@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Job Dating</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Job dating 🐮</h1>
 
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <title>Job Dating</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="image-container">
+        <img src="Img/logo/logo.JobDating.png" alt="logo vache" width="200">
+      </div>
+      <div class="text-container">
+        <h1>Connecting people...</h1>
+      </div>
+      <div>
+        <ul class="internlinks">
+          <li><a href="about.html">About</a></li>
+          <li><a href="don.html">Faites un don !</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <form id="searchForm">
-    <label for="industrySelect">Secteur d'activité :</label>
-    <select id="industrySelect">
+    <label for="industrySelect" class="titres">Secteur d'activité :</label>
+    <select id="industrySelect" class="btn-selecteur">
       <option value="all">Tous les secteurs</option>
       <option value="IT">IT</option>
       <option value="BTP">BTP</option>
@@ -27,8 +47,8 @@
       <!-- Ajouter ici d'autres options de secteur d'activité ici ! Long et chiant -->
     </select>
 
-    <label for="jobSelect">Métier recherché :</label>
-    <select id="jobSelect">
+    <label for="jobSelect" class="titres">Métier recherché :</label>
+    <select id="jobSelect" class="btn-selecteur">
       <option value="all">Tous les métiers</option>
       <!-- Il faut ajouter ici  les métiers correspondant aux secteurs d'activité sélectionnés !!!! Long et chiant +++-->
     </select>
@@ -43,20 +63,11 @@
   <br>
   <br>
   <!-- <div id="matchingCards"></div>-->
-  <div class = "card-container">
-  <div id = "matchingCards" class="flip">
-    <div class="content">
-        <div class="front">
-            <h2>Front</h2>
-            <p>Front Description</p>
-        </div>
-        <div class="back">
-            <h2>Back</h2>
-            <p>Back Description</p>
-        </div>
+  <div class="card-container">
+    <div id="matchingCards">
     </div>
-  </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
