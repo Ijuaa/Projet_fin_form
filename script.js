@@ -181,6 +181,51 @@ document.addEventListener("DOMContentLoaded", function() {
     "picture": "Img/img-resized/serveur.jpg",
     "telework": false,
     "salaire": "20000€ - 30000€"
+  },
+  {
+    "id": "18",
+    "name": "Technicien informatique",
+    "recruiter": "IT Solutions",
+    "description": "Résolvez les problèmes techniques avec expertise.",
+    "keywords": ["Informatique", "Network"],
+    "picture": "Img/iloveimg-resized (2)/tech info.jpg",
+    "telework": true
+  },
+  {
+    "id": "19",
+    "name": "Designer graphique",
+    "recruiter": "Creative Studio",
+    "description": "Donnez vie à des concepts visuels uniques.",
+    "keywords": ["Design", "Graphic Design"],
+    "picture": "Img/iloveimg-resized (2)/devenir_designer_graphique.jpeg",
+    "telework": true
+  },
+  {
+    "id": "20",
+    "name": "Assistant de recherche",
+    "recruiter": "Laboratoire Scientifique",
+    "description": "Contribuez à des découvertes scientifiques passionnantes.",
+    "keywords": ["Science", "Laboratory"],
+    "picture": "Img/iloveimg-resized (2)/assistant rech.jpeg",
+    "telework": false
+  },
+  {
+    "id": "21",
+    "name": "Consultant RH",
+    "recruiter": "HR Consulting Group",
+    "description": "Apportez votre expertise pour optimiser la gestion des ressources humaines.",
+    "keywords": ["Ressources humaines", "Management"],
+    "picture": "Img/iloveimg-resized (2)/rh.jpg",
+    "telework": true
+  },
+  {
+    "id": "22",
+    "name": "Analyste de données",
+    "recruiter": "Data Analytics Inc.",
+    "description": "Analysez les données et dégagez des insights pertinents.",
+    "keywords": ["Analyse de données", "Informatique"],
+    "picture": "Img/iloveimg-resized (2)/analyse données.jpg",
+    "telework": true
   }
 ];
 
@@ -241,3 +286,5 @@ industrySelect.addEventListener("change", displayMatchingCards);
 jobSelect.addEventListener("change", displayMatchingCards);
 teleworkCheckbox.addEventListener("change", displayMatchingCards);
 });
+
+

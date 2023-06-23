@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styledon.css">
+  <title>Faites un don</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="image-container">
+        <a href="index.html">
+          <img src="Img/logo/logo.JobDating.png" alt="logo vache" width="70">
+      </div></a>
+      <div class="text-container">
+        <p>Connecting people ...</p>
+      </div>
+      <div class="link">
+        <a href="about.html">About</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <h1>Soutenez l'équipe</h1>
+    <div class="popup">
+      <div class="popup-content">
+        <h2>Faites un don!!!</h2>
+        <p>
+          Attention ! Les développeurs de ce site ont besoin de payer leurs
+          boot camp pour la rentrée de Septembre 2023!!!!
+        </p>
+        <img src="Img/gif/jack-sparrow.gif" alt="gif, give me ur money!!!" />
+        <button onclick="closePopup()">Fermer</button>
+      </div>
+    </div>
+    <p>Votre générosité nous permettra de continuer à vous offrir des services de qualité médiocre, à vous mettre en
+      contact avec des recruteurs douteux, à vous saboter votre carrière et à vous ruiner la vie. En soutenant l’équipe,
+      vous contribuez à la propagation du malheur, de la frustration et de la dépression dans le monde du travail. Vous
+      recevrez en échange un certificat de nullité, un badge de loser et un autocollant “Je suis un pigeon”. Merci de
+      votre soutien !</p>
+      <h2>Faites un don !</h2>
+    <form id="donationForm">
+      <label for="amountInput">Montant du don :</label>
+      <input type="number" id="amountInput" required />
+
+      <label for="nameInput">Nom :</label>
+      <input type="text" id="nameInput" required />
+
+      <label for="emailInput">Email :</label>
+      <input type="email" id="emailInput" required />
+
+      <label for="paymentMethodSelect">Méthode de paiement :</label>
+      <select id="paymentMethodSelect">
+        <option value="creditCard">Carte de crédit</option>
+        <option value="paypal">PayPal</option>
+        <option value="bankTransfer">Virement bancaire</option>
+      </select>
+      <input type="submit" value="Faire un don" />
+    </form>
+  </main>
+  <script src="scriptdon.js"></script>
+</body>
+
+</html>
