@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const popupClosed = false;
+  let popupClosed = false;
 
   alert("Merci de faire un don pour continuer à naviguer.");
 
-  const montant = "";
+  let montant = "";
   while (!popupClosed && (montant === null || montant === "")) {
     montant = prompt("À quelle hauteur souhaitez-vous financer le projet ?");
   }

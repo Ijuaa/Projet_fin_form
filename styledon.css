@@ -13,6 +13,18 @@ nav {
     background-color: #ff6600;
 }
 
+#gifs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.gifcentre {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .nav-container {
     display: flex;
     align-items: center;
